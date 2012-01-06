@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# to be fair, I poached this from someone long ago, but forgot the source, so I can't give them due credit.
+find . -name '.git' -prune -o -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'
