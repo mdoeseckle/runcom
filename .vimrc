@@ -1,7 +1,5 @@
 filetype plugin on
 
-let g:pydiction_location='/Users/doeseckm/.vim/pydiction-1.2/complete-dict'
-
 syntax on
 
 set incsearch
